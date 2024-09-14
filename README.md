@@ -122,4 +122,4 @@ Then, run the executable:
 
 ## License
 
-This project is open-source and freely available under the MIT License.
+This project is open-source and freely available under the  GNU GENERAL PUBLIC LICENSE Version 2.
