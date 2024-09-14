@@ -15,7 +15,7 @@ This project implements a simple gradient descent algorithm to find the minima o
 
 - `point.h`: Header file defining operations on 3D points (`point_t`), such as subtraction, scalar multiplication, and modulus computation.
 - `gradient_descent.h`: Header file defining the gradient descent solver and the gradient computation functions.
-- `main.c`: Example usage of the gradient descent algorithm on multiple functions.
+- `example.c`: Example usage of the gradient descent algorithm on multiple functions.
 - `point.c`: Implementation of the functions defined in `point.h`.
 - `gradient_descent.c`: Implementation of the gradient descent algorithm and the finite difference method for gradient approximation.
 
@@ -106,7 +106,7 @@ The output will be the coordinates of the minima for each of the test functions.
 To compile the program, use `gcc` or any other C compiler:
 
 ```bash
-gcc -o gradient_solver main.c point.c gradient_descent.c -lm
+gcc -o gradient_solver example.c point.c gradient_descent.c -lm
 ```
 
 Then, run the executable:
