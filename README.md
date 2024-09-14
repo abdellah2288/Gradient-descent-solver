@@ -60,7 +60,7 @@ The following operations on 3D points (`point_t`) are supported:
   point_t spmult(point_t point, float scalar);
   ```
 
-- **Modulus of a Point**:
+- **Module of a Point**:
   ```c
   float pmod(point_t point);
   ```
